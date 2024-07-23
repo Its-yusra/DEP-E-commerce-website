@@ -1,88 +1,70 @@
-# DEP-E-commerce-website
-# E-commerce Website
+# Getting Started with Create React App
 
-Welcome to the E-commerce Website repository. This project is a full-stack web application for an online store that sells electronics, including smartphones, laptops, tablets, headphones, and smart home devices. 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Introduction
+## Available Scripts
 
-This project aims to create a dynamic and visually appealing e-commerce platform. It includes user authentication, a product catalog, a shopping cart, and a checkout process.
+In the project directory, you can run:
 
-## Features
+### `npm start`
 
-- User authentication (login/logout)
-- Product catalog with categories (Featured Products, New Arrivals)
-- Shopping cart with add/remove functionality
-- Cart items page
-- Responsive design for various screen sizes
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Technologies Used
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Frontend
+### `npm test`
 
-- HTML
-- CSS
-- JavaScript
-- React
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Backend
+### `npm run build`
 
-- Node.js
-- Express.js
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Database
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- MongoDB
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Tools
+### `npm run eject`
 
-- VS Code
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Installation
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-To run this project locally, follow these steps:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/ecommerce-website.git
-    cd ecommerce-website
-    ```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-2. Install the dependencies for both the frontend and backend:
+## Learn More
 
-    ```bash
-    cd frontend
-    npm install
-    cd ../backend
-    npm install
-    ```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-3. Create a `.env` file in the `backend` directory and add the following:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-    ```env
-    PORT=5000
-    MONGO_URI=mongodb+srv://white:00whiteeye00@clothesecommerce.fhi1adu.mongodb.net/ClothesEcommerce?retryWrites=true&w=majority&ssl=true
+### Code Splitting
 
-    ```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-4. Start the development server for the backend:
-    ```bash
-    npm start
-    ```
+### Analyzing the Bundle Size
 
-5. In a new terminal, start the development server for the frontend:
-    ```bash
-    cd frontend
-    npm start
-    ```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-6. Open your browser and navigate to `http://localhost:3000`.
+### Making a Progressive Web App
 
-## Usage
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-- **Login:** Click on the 'Login' button in the header to open the login page. Enter your credentials to log in.
-- **Shop Products:** Browse through the featured products and new arrivals on the homepage. Click 'Add to Cart' to add items to your shopping cart.
-- **View Cart:** Click on the 'Go to Cart' button in the header to view the items in your shopping cart. You can remove items from the cart on this page.
-- **Checkout:** (This functionality can be expanded in future iterations.)
+### Advanced Configuration
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
+### Deployment
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
