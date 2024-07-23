@@ -84,5 +84,5 @@ To run this project locally, follow these steps:
 - **View Cart:** Click on the 'Go to Cart' button in the header to view the items in your shopping cart. You can remove items from the cart on this page.
 - **Checkout:** (This functionality can be expanded in future iterations.)
 
-## Project Structure
+
 
